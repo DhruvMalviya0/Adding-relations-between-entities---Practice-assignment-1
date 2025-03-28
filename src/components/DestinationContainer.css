@@ -1,0 +1,29 @@
+.destination-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.container-title {
+  text-align: center;
+  color: #2d3748;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.destination-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+@media (max-width: 768px) {
+  .destination-container {
+    padding: 1rem;
+  }
+
+  .container-title {
+    font-size: 2rem;
+  }
+} 
